@@ -1,20 +1,32 @@
+// utility logic
 
+function userName (name) {
+  let userArray = [];
+  for (let i = 0; i <= name; i++) {
+    userArray.push(i);
+}
+return nameToNum(userArray);
 
-  function beep (text) {
-    const beepArray = text.split("");
-    const doubleBeepArray = []
-    if (beepArray.length < 0 && beepArray > 1000) { 
-      for(let index = -0; index <beepArray.length; index++);
+}
 
+function nameToNum (array) {
+  array1= [];
+  array.array.forEach(element => {
+    if (element.toString().includes("1")){
+      array1.push("beep");
+    } else  {
+      array1.push("element");
     }
-    return 0;
-  
-  }
+  });
 
-window.addEventListener("load", function (e) {
-  const input1 =document.getElementById("input").value;
-  const results = beep ("beep");
-  document.getElementById("outputbox").innertext = results;
-  e.preventDefault();
-});
-  
+
+}
+
+
+  window.onload = function(){
+    let form = document.querySelector('form');
+    form.onsubmit = function(event){
+      event.preventDefault();
+      document.getElementById("outputbox");
+  }
+}; 
