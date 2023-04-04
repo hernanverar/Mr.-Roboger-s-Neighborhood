@@ -1,6 +1,8 @@
 body {
   font-family: sans-serif;
   text-align: center;
+  background-color: rgb(140, 125, 144);
+  
 }
 
 h1 {
@@ -21,4 +23,12 @@ button {
 p {
   margin-top: 20px;
   text-decoration: rgb(130, 172, 172);
+}
+img {
+  width: 350px;
+  height: 150px;
+}
+
+p {
+  color: aqua;
 }

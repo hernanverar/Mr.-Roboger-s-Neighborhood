@@ -28,13 +28,22 @@ function handleSubmit() {
         return number;
     }
   });
-  for (let i = 0; i <substitutions.length; i++) {
-    output.innerHTML += substitutions[i]}
- }
 
-// utility Logic
+  //  this method will return the anwers in a string o the same line..
+
+  // for (let i = 0; i <substitutions.length; i++) {
+  //   output.innerHTML += substitutions[i]}
+
+
+  substitutions.forEach(number => {
+    output.innerHTML += `${number}<br>`;
+  });
+}
+
+
+// utility interface Logic/// I don't really understand how to do my UIL need to do some research..
   
-// function handleFormSubmit(e) {
+// function handleSubmit(e) {
 //   e.preventDefault();
 //   const handleSubmit = document.getElementById("input-number").value;
 //   const output = document.querySelector("#output");
