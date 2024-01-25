@@ -1,11 +1,11 @@
 Mr Roboger's Neighborhood
 
-technoloagies used;
+technologies used;
 * html
 * css
 * javascript
 
-Project set up: First we need a function array and returns back 0.
+Project set up: First we need a function array and it returns back 0.
 
 Describe: arrNumber ()
 Test: "It should return an array of (0) 
@@ -16,7 +16,7 @@ Second test: we need create if statment to return beep if we enter #1 to our tex
 Expected Output: true;
 
 Describe:  2 = to boop
-Second test: we need create else if statment to return boop if we enter #2 to our textbox
+Second test: we need to create else if statment to return boop if we enter #2 to our textbox
 Expected Output: true;
 
 Describe: 3 = Won't you be my neighbor?
@@ -34,7 +34,7 @@ Expected Output: true
 Known Bugs:
 None/
 
-Licensse
+License
 MIT License
 
 Copyright (c) [2023] [Hernan Verar]
